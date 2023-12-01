@@ -1,8 +1,22 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aspire.Net.Api", "Aspire.Net.Api\Aspire.Net.Api.csproj", "{B032936D-493B-4872-BA11-8533056522F4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aspire.Net.Web", "Aspire.Net.Web\Aspire.Net.Web.csproj", "{2B24E2C5-B035-400B-AD77-AF4ADBAE0688}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B032936D-493B-4872-BA11-8533056522F4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B032936D-493B-4872-BA11-8533056522F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B032936D-493B-4872-BA11-8533056522F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B032936D-493B-4872-BA11-8533056522F4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2B24E2C5-B035-400B-AD77-AF4ADBAE0688}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2B24E2C5-B035-400B-AD77-AF4ADBAE0688}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2B24E2C5-B035-400B-AD77-AF4ADBAE0688}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2B24E2C5-B035-400B-AD77-AF4ADBAE0688}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
